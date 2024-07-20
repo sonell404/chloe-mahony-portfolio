@@ -305,7 +305,7 @@ h2 {
 }
 
 .image-text-container img {
-  max-width: clamp(50%, 50vw, 100%);
-  height: auto;
+  max-width: clamp(80%, 50vw, 100%);
+  max-height: 80%;
   place-self: center;
 }
