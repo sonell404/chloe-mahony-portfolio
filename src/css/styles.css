@@ -286,6 +286,7 @@ h2 {
   gap: 1rem;
 
   max-width: var(--dynamic-max-width);
+  max-height: 80%;
   margin: 5rem 0;
 }
 
@@ -304,7 +305,7 @@ h2 {
 }
 
 .image-text-container img {
-  max-width: clamp(80%, 50vw, 100%);
+  max-width: clamp(50%, 50vw, 100%);
   height: auto;
   place-self: center;
 }
